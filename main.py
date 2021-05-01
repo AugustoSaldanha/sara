@@ -7,7 +7,7 @@ from sara import *
 
 
 #needs the bot id
-bot = telepot.Bot('bot id')
+bot = telepot.Bot('1234567890')#bot id!!
 tdSara = sara(bot)
 print(bot.getMe())
 MessageLoop(tdSara.bot, tdSara.handle).run_as_thread()

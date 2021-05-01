@@ -19,7 +19,7 @@ class sara():
         print(chat_id)
         print(command)
         #compare chat id, only registered chats can control the bot!
-        if  chat_id == 'integer with the chat id!!':
+        if  chat_id == 1234567890:#need chat id
             #now compare message to do something *Commands in portuguese, but you can change this!
             if command == '/oi':
                 self.bot.sendMessage(chat_id, str("Ola! Parabens, tudo funcionando"))
