@@ -19,7 +19,7 @@ class sara():
         print(chat_id)
         print(command)
 
-        if  chat_id == 1193864225:
+        if  chat_id == 1234567890:
             if command == '/oi':
                 self.bot.sendMessage(chat_id, str("Ola! Parabens, tudo funcionando"))
             elif command.lower() == '/horas':
